@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+shift+o",
+    "command": "workbench.action.gotoSymbol"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.showAllEditors"
+  },
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickSwitchWindow"
+  },
+  {
+    "key": "alt+tab",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+r",
+    "command": "editor.action.marker.next"
+  },
+  {
+    "key": "cmd+shift+r",
+    "command": "editor.action.marker.prev"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "multiCommand.moveDown12Lines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "multiCommand.moveUp12Lines",
+    "when": "editorTextFocus"
+  }
+]

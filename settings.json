@@ -1,0 +1,112 @@
+{
+  "breadcrumbs.enabled": false,
+  "chat.commandCenter.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "editor.linkedEditing": true,
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.organizeImports": "always"
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/build": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "github.copilot.chat.codesearch.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/build": true
+  },
+  "window.zoomLevel": 0,
+  "workbench.colorTheme": "Bearded Theme Vivid Light",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.sideBar.location": "right",
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": true,
+  "explorer.confirmDelete": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.labelFormat": "short",
+  "explorer.openEditors.visible": 1,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "terminal.integrated.defaultLocation": "editor",
+  "terminal.integrated.splitCwd": "workspaceRoot",
+  "terminal.integrated.persistentSessionReviveProcess": "onExitAndWindowClose",
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "editor.lineNumbers": "relative",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.centerLayout": true,
+  "zenMode.fullScreen": false,
+  "zenMode.restore": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollBeyondLastLine": false,
+  "workbench.settings.openDefaultKeybindings": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredLightColorTheme": "Bearded Theme Vivid Light",
+  "workbench.preferredDarkColorTheme": "Bearded Theme Monokai Stone",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.moveDown12Lines",
+      "sequence": [
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown",
+        "cursorDown"
+      ]
+    },
+    {
+      "command": "multiCommand.moveUp12Lines",
+      "sequence": [
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp",
+        "cursorUp"
+      ]
+    }
+  ]
+}
