@@ -2,7 +2,7 @@
 
 Code setup for consistency, speed, and cross-environment productivity.
 
-## VS Codeq
+## VS Code
 
 ### Plugins
 
