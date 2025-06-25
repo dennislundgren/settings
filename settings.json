@@ -1,6 +1,6 @@
 {
   "breadcrumbs.enabled": false,
-  "chat.commandCenter.enabled": true,
+  "chat.commandCenter.enabled": false,
   "editor.accessibilitySupport": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
@@ -10,6 +10,7 @@
   "editor.linkedEditing": true,
   "editor.fontSize": 16,
   "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
   "editor.inlineSuggest.enabled": true,
@@ -108,5 +109,12 @@
         "cursorUp"
       ]
     }
-  ]
+  ],
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.svg": "default"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "hidden"
 }
