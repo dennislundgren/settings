@@ -37,5 +37,9 @@
     "key": "ctrl+shift+up",
     "command": "multiCommand.moveUp12Lines",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+shift+w",
+    "command": "workbench.action.closeAllEditors"
   }
 ]
